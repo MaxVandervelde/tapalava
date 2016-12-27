@@ -56,7 +56,7 @@ class CassandraEventRepository implements EventRepository
      *
      * @param string $scheduleId The ID of the schedule to find events for.
      * @return Event[] The events associated with the provided schedule ID. Empty
-     *               if none found, never null.
+     *                 if none found, never null.
      */
     public function findAll($scheduleId): array
     {
